@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  background-color: aliceblue;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px;
+  font-weight: 600;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  margin-right: 60px;
+}
+
+.logo {
+  font-size: 30px;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+input {
+  width: 35vw;
+  padding: 10px;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid green;
+  font-size: 17px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.button button {
+  width: 200px;
+  outline: none;
+  border-radius: 25px;
+  border: none;
+  padding: 8px;
+  font-weight: 600;
+  font-size: 17px;
+  cursor: pointer;
+  color: #fff;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(319deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 0.9150253851540616) 40%, rgba(0, 212, 255, 1) 100%);
+}
+
+h3 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.formContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 15px;
+  box-shadow: 0px 0px 90px 2px rgb(114, 112, 112);
+  transform: translate(-50%, -50%);
+  padding: 48px 40px;
+  /* background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,160,233,1) 100%); */
+}
+
+.formLabel>div {
+  margin: 30px 10px;
+}
+
+.cartCount {
+  font-size: 18px;
+}
+
+.parentContainer {
+  background-color: rgb(234, 227, 227);
+}
+
+.container {
+  display: inline-block;
+  align-items: center;
+  width: 190px;
+  height: 250px;
+  text-align: center;
+  justify-content: space-evenly;
+  margin: 20px 50px;
+  background-color: #fff;
+  overflow: hidden;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.container img {
+  height: 70px;
+  margin-top: 30px;
+}
+
+.container h6 {
+  margin-top: 5px;
+}
+
+.container h5 {
+  margin-top: 5px;
+}
+
+.container button {
+  background-color: rgb(152, 224, 152);
+  border: 1px solid rgb(122, 216, 122);
+  padding: 8px;
+  /* color:#fff; */
+  font-weight: 600;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container button:hover {
+  background-color: rgb(84, 237, 84);
+}
+
+.cartCard img {
+  width: 100px;
+
+}
+
+.cartCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 500px; */
+  border: 2px solid #00a;
+  margin: 15px;
+  padding: 18px;
+}
+
+.removeButton {
+  background-color: rgb(236, 124, 124);
+  padding: 8px 15px;
+  border: 1px solid red;
+  font-weight: 600;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.removeButton:hover {
+  background-color: rgb(249, 5, 5);
+}
